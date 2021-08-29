@@ -11,6 +11,10 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
+		/*
+		Can be made another wise by making slow pointer and fast pointer
+		then reversing the second half and check the first half and second (reversed) half
+		*/
         vector<int> vals;
         while(head != NULL){
             vals.push_back(head->val);
