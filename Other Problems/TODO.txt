@@ -25,3 +25,11 @@ So sliding window and greedy algorithm
 Most Common Word, Reorder log files are some of the most frequent questions.
 
 https://leetcode.com/discuss/interview-question/1046725/Amazon-Oniste
+
+Invert Binary Tree
+https://leetcode.com/problems/invert-binary-tree/
+
+https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+https://leetcode.com/problems/subarrays-with-k-different-integers/
+https://leetcode.com/problems/maximum-erasure-value/
