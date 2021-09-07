@@ -6,6 +6,7 @@ Careem interview questions
 Number of islands problem (Leetcode)
 
 Trapping rain water (Leetcode)
+https://leetcode.com/problems/trapping-rain-water/
 
 For Amazon Interview
 Take a look on medium array/string problems along with search-related graph problems (BFS, DFS).
