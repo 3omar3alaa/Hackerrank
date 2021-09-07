@@ -6,3 +6,22 @@ Careem interview questions
 Number of islands problem (Leetcode)
 
 Trapping rain water (Leetcode)
+
+For Amazon Interview
+Take a look on medium array/string problems along with search-related graph problems (BFS, DFS).
+https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/
+https://leetcode.com/problems/rotate-image/
+https://leetcode.com/problems/number-of-islands/   repeated many times
+https://leetcode.com/problems/cheapest-flights-within-k-stops/
+https://leetcode.com/problems/number-of-provinces/  repeated many times
+https://leetcode.com/problems/reorder-data-in-log-files/
+
+Amazon OA
+Questions
+- Parking Dilemma
+- University Career Fair/Maximum Number of Events That Can Be Attended (1353)
+So sliding window and greedy algorithm 
+
+Most Common Word, Reorder log files are some of the most frequent questions.
+
+https://leetcode.com/discuss/interview-question/1046725/Amazon-Oniste
