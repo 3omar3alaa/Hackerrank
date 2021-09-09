@@ -34,3 +34,6 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
 https://leetcode.com/problems/subarrays-with-k-different-integers/
 https://leetcode.com/problems/maximum-erasure-value/
+
+Trie Tree (Amazon SDE II Site interview)
+how to traverse binary search tree if you only have access to the parent ? 
