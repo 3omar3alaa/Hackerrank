@@ -36,4 +36,7 @@ https://leetcode.com/problems/subarrays-with-k-different-integers/
 https://leetcode.com/problems/maximum-erasure-value/
 
 Trie Tree (Amazon SDE II Site interview)
-how to traverse binary search tree if you only have access to the parent ? 
+how to traverse binary search tree if you only have access to the parent ?
+
+https://leetcode.com/problems/maximum-product-subarray/
+https://leetcode.com/problems/paint-house-ii/ 
