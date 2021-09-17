@@ -40,3 +40,9 @@ how to traverse binary search tree if you only have access to the parent ?
 
 https://leetcode.com/problems/maximum-product-subarray/
 https://leetcode.com/problems/paint-house-ii/ 
+
+Learn the topological sort for the course schedule problem
+https://leetcode.com/problems/course-schedule/
+
+Learn DFS solution for Binary Tree Zigzag Level Order Traversal
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
