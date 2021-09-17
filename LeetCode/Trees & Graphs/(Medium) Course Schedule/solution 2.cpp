@@ -3,20 +3,20 @@ public:
     // pass the function parameters by reference so not to take so much time in copying the 
     // value if sent by value
     
-    bool hasCycleDFS(int course, vector<vector<int>>& dict, vector<bool>& visited, vector<bool>& checked){      
+    bool hasCycleDFS(int course, vector<vector<int>>& dict, vector<int>& visited){      
         if(dict[course].size() == 0) return false;
-        checked[course] = true;
+        visited[course] = 1;
         
         for(int i = 0; i < dict[course].size(); i++){
-            if(checked[dict[course][i]]) return true;
+            if(visited[dict[course][i]] == 1) return true;
             
             if(!visited[dict[course][i]])
-                if(hasCycleDFS(dict[course][i], dict, visited, checked))
+                if(hasCycleDFS(dict[course][i], dict, visited))
                     return true;
         }
         
-        checked[course] = false;
-        visited[course] = true;
+        // checked[course] = false;
+        visited[course] = 2;
         return false;
     }
     
@@ -32,7 +32,7 @@ public:
         // visited array
         // the node will be true when all it's adjacency list is visited
         // but the adjacency list won't be visited
-        vector<bool> visited(numCourses, false);
+        vector<int> visited(numCourses, 0);
         
         /* checked array
         the node and it's adjacency list node will be true every time we loop over them
@@ -40,7 +40,7 @@ public:
         the purpose of this array is to tackle the case when multiple node point to a single node
         for example 5 [[1,4],[2,4],[3,1],[3,2]]
         */
-        vector<bool> checked(numCourses, false);
+        // vector<bool> checked(numCourses, false);
         //  we could use only a sinle array (visited) but make it an array of int
         // where 0 - not visited, 1 - checked, 2 - visited
         
@@ -48,7 +48,7 @@ public:
         // make a DFS funtion and start with the first course
         for(int i = 0; i < numCourses; i++){
             if(!visited[i])
-                if(hasCycleDFS(i, dict, visited, checked))
+                if(hasCycleDFS(i, dict, visited))
                     return false;
         }
         return true;
