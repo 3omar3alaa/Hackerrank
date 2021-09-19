@@ -45,8 +45,9 @@ public:
             current = current -> children[c];
         }
         
-        // now current stands at the last value of the prefix        
-        return checkChildren(current);   
+        // return true because am sure that anything inserted is a word     
+        return true;
+		// return checkChildren(current);   
     }
     
     bool checkChildren(TrieNode* current){
