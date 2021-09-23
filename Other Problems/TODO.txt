@@ -49,3 +49,6 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
 looks interesting
 https://leetcode.com/problems/robot-room-cleaner/
+
+Quickselect algorithm
+https://leetcode.com/problems/kth-largest-element-in-an-array/solution/
