@@ -54,3 +54,6 @@ Quickselect algorithm
 https://leetcode.com/problems/kth-largest-element-in-an-array/solution/
 
 Median of sorted arrays is hard, but look at it
+
+solve problems about priority queues 
+https://leetcode.com/problemset/all/?topicSlugs=heap-priority-queue&page=1
