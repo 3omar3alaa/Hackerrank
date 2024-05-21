@@ -1,6 +1,3 @@
-# Problem Solving Questions
-My answers to Problem Solving questions from websites like Hackerrank and LeetCode and other sources
-
 # Problem Solving Solutions
 
 ## Arrays
@@ -56,6 +53,7 @@ My answers to Problem Solving questions from websites like Hackerrank and LeetCo
 - (Easy) Climbing Stairs
 - (Easy) Maximum Subarray
 - (Easy) Pascal's Triangle II
+- (Hard) Burst Balloons
 - (Medium) Coin Change - Min Number
 - (Medium) Coin Change 2 - How Many Ways
 - (Medium) House Robber
@@ -153,3 +151,4 @@ My answers to Problem Solving questions from websites like Hackerrank and LeetCo
 - (Medium) Unique Binary Search Trees II
 - (Medium) Validate Binary Search Tree
 - (Medium) Word Search
+
