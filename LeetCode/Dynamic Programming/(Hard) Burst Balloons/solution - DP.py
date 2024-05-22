@@ -1,3 +1,4 @@
+# time complexity: O(n^3)
 from typing import List
 
 '''

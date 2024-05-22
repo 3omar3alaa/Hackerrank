@@ -1,3 +1,4 @@
+# time complexity: O(n)
 class Solution:
     def climbStairs(self, n: int) -> int:
         memo = [0] * (n + 1)
