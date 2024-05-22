@@ -26,25 +26,50 @@ def get_problems_by_category(repo_path):
 
     return problems_by_category
 
+def sort_problems(problems):
+    difficulty_order = {'Easy': 0, 'Medium': 1, 'Hard': 2}
+    return sorted(problems, key=lambda x: difficulty_order.get(x[1], 3))
+
 def write_readme(problems_by_category, output_path):
+    total_problems = 0
+    difficulty_counts = {'Easy': 0, 'Medium': 0, 'Hard': 0}
+
     with open(output_path, 'w') as readme:
         readme.write("# Problem Solving Solutions\n")
         readme.write("\n")
+
+        # Count and write the number of problems solved for each difficulty
+        for category, problems in problems_by_category.items():
+            total_problems += len(problems)
+            for _, difficulty, _ in problems:
+                if difficulty in difficulty_counts:
+                    difficulty_counts[difficulty] += 1
+
+        readme.write(f"Total problems solved: {total_problems}\n")
+        readme.write(f"Easy: {difficulty_counts['Easy']}\n")
+        readme.write(f"Medium: {difficulty_counts['Medium']}\n")
+        readme.write(f"Hard: {difficulty_counts['Hard']}\n")
+        readme.write("\n")
+
         for category, problems in problems_by_category.items():
             readme.write(f"## {category}\n")
             readme.write("\n")
-            readme.write("| Problem | Difficulty | Link |\n")
+            readme.write("| Difficulty | Problem | Link |\n")
             readme.write("|---------|------------|------|\n")
-            for problem, difficulty, link in problems:
+            
+            # Sort the problems
+            sorted_problems = sort_problems(problems)
+            
+            for problem, difficulty, link in sorted_problems:
                 if link:
-                    readme.write(f"| {problem} | {difficulty} | [Link]({link}) |\n")
+                    readme.write(f"| {difficulty} | {problem} | [Link]({link}) |\n")
                 else:
-                    readme.write(f"| {problem} | {difficulty} | No Link |\n")
+                    readme.write(f"| {difficulty} | {problem} | No Link |\n")
             readme.write("\n")
 
 def main():
     repo_path = r'C:\Users\m3ne7b\Documents\GitHub\Problem-Solving\LeetCode'  # Change this to your repo path
-    o_path = r'C:\Users\m3ne7b\Documents\GitHub\Problem-Solving'  # Change this to your repo path
+    o_path = r'C:\Users\m3ne7b\Documents\GitHub\Problem-Solving'
     output_path = os.path.join(o_path, 'README.md')
     problems_by_category = get_problems_by_category(repo_path)
     write_readme(problems_by_category, output_path)
