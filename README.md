@@ -1,8 +1,8 @@
 # Problem Solving Solutions
 
-Total problems solved: 116
+Total problems solved: 117
 Easy: 68
-Medium: 43
+Medium: 44
 Hard: 5
 
 ## Arrays
@@ -71,6 +71,7 @@ Hard: 5
 | Medium | Coin Change - Min Number | [Link](https://leetcode.com/problems/coin-change/) |
 | Medium | Coin Change 2 - How Many Ways | [Link](https://leetcode.com/problems/coin-change-2/) |
 | Medium | House Robber | [Link](https://leetcode.com/problems/house-robber/) |
+| Medium | Jump Game II | [Link](https://leetcode.com/problems/jump-game-ii/description/) |
 | Medium | Longest Palindromic Substring | [Link](https://leetcode.com/problems/longest-palindromic-substring/) |
 | Hard | Burst Balloons | [Link](https://leetcode.com/problems/burst-balloons/description/) |
 
