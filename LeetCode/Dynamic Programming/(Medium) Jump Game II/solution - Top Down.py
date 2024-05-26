@@ -19,7 +19,7 @@ class Solution:
         return helper(0)
     
 if __name__ == "__main__":
-    nums = [2,3,1,1,4]
+    nums = [3,2,1,0,4]
     solution = Solution()
     jumps = solution.jump(nums)
     print(solution.jump(nums))
