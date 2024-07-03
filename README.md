@@ -1,9 +1,9 @@
 # Problem Solving Solutions
 
-Total problems solved: 119
-Easy: 68
-Medium: 46
-Hard: 5
+Total problems solved: 133
+Easy: 69
+Medium: 58
+Hard: 6
 
 ## Arrays
 
@@ -27,11 +27,18 @@ Hard: 5
 | Easy | Third Maximum Number | [Link](https://leetcode.com/problems/third-maximum-number/) |
 | Easy | Two Sum | [Link](https://leetcode.com/problems/two-sum/) |
 | Easy | Valid Mountain Array | [Link](https://leetcode.com/problems/valid-mountain-array/) |
+| Medium | Analyze User Website Visit Pattern | [Link](https://leetcode.com/problems/analyze-user-website-visit-pattern/) |
 | Medium | Best Time to Buy and Sell Stock II | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |
 | Medium | Container With Most Water | [Link](https://leetcode.com/problems/container-with-most-water/) |
+| Medium | Continuous Subarray Sum | [Link](https://leetcode.com/problems/continuous-subarray-sum/description/) |
+| Medium | Minimum Adjacent Swaps to Make a Valid Array | [Link](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array/) |
+| Medium | Minimum Number of Operations to Make Array Empty | [Link](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/) |
+| Medium | Plates Between Candles | [Link](https://leetcode.com/problems/plates-between-candles/description/) |
 | Medium | Product of Array Except Self | [Link](https://leetcode.com/problems/product-of-array-except-self/) |
+| Medium | Reveal Cards In Increasing Order | [Link](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
 | Medium | Rotate Array | [Link](https://leetcode.com/problems/rotate-array/) |
 | Medium | Rotate Image | [Link](https://leetcode.com/problems/rotate-image/) |
+| Medium | Rotting Oranges | [Link](https://leetcode.com/problems/rotting-oranges/) |
 | Medium | Three Sum | [Link](https://leetcode.com/problems/3sum/) |
 | Medium | Three Sum Closest | [Link](https://leetcode.com/problems/3sum-closest/) |
 | Medium | Valid Sudoku | [Link](https://leetcode.com/problems/valid-sudoku/) |
@@ -86,6 +93,7 @@ Hard: 5
 | Easy | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | Easy | Palindrome Linked List | [Link](https://leetcode.com/problems/palindrome-linked-list/) |
 | Easy | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/) |
+| Medium | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
 | Medium | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
 | Medium | Swap Nodes in Pairs | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/) |
 
@@ -99,6 +107,7 @@ Hard: 5
 | Easy | Power of Three | [Link](https://leetcode.com/problems/power-of-three/) |
 | Easy | Roman to Integer | [Link](https://leetcode.com/problems/roman-to-integer/) |
 | Medium | Count Primes | [Link](https://leetcode.com/problems/count-primes/) |
+| Medium | Find The K-th Lucky Number | [Link](https://leetcode.com/problems/find-the-k-th-lucky-number/description/) |
 | Medium | Robot Bounded In Circle | [Link](https://leetcode.com/problems/robot-bounded-in-circle/) |
 
 ## Others
@@ -155,7 +164,11 @@ Hard: 5
 | Medium | Count and Say | [Link](https://leetcode.com/problems/count-and-say/) |
 | Medium | Group Anagrams | [Link](https://leetcode.com/problems/group-anagrams/) |
 | Medium | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| Medium | Minimum Number of Keypresses | No Link |
+| Medium | Reorganize String | [Link](https://leetcode.com/problems/reorganize-string/description/) |
+| Medium | Replace the Substring for Balanced String | [Link](https://leetcode.com/problems/replace-the-substring-for-balanced-string/) |
 | Medium | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/) |
+| Hard | Length of the Longest Valid Substring | [Link](https://leetcode.com/problems/length-of-the-longest-valid-substring/description/) |
 
 ## Trees & Graphs
 
@@ -170,6 +183,7 @@ Hard: 5
 | Easy | Maximum Depth of Binary Tree | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | Easy | Path Sum | [Link](https://leetcode.com/problems/path-sum/) |
 | Easy | Search in a Binary Search Tree | [Link](https://leetcode.com/problems/search-in-a-binary-search-tree/) |
+| Easy | Sum of Root To Leaf Binary Numbers | [Link](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/) |
 | Easy | Symmetric Tree | [Link](https://leetcode.com/problems/symmetric-tree/) |
 | Medium | Binary Tree Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 | Medium | Binary Tree Zigzag Level Order Traversal | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
